@@ -1,0 +1,74 @@
+* {
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+header {
+    background-color: #EAC926;
+}
+div.burger-menu{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+article div.main-article{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.precio {
+  font-size: 18px;
+}
+.descuento,
+.descripcion {
+  font-size: 16px;
+}
+
+main section article {
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-top: solid 1px #ebebee;
+}
+
+main section article i {
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    border: 1px solid #39b5a4;
+    background-color: #fff;
+    border-radius: 50%;
+    /* position: absolute; */
+    right: 20px;
+    top: -15px
+}
+footer section  {
+     text-align: center;
+     margin-top: 10px;
+}
+footer section i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #0044AA;
+}
+
+section p h6.legal {
+    margin: 10px;
+}
